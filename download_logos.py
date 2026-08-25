@@ -1,0 +1,157 @@
+#!/usr/bin/env python3
+"""One-time helper: downloads every FCS team logo (ESPN's transparent 500px PNGs) into a logos/ folder.
+Run on your own computer:  python3 download_logos.py     (needs only Python 3, no extra packages)
+Then upload the logos/ folder to the fcs-logos GitHub repo (or wherever the thumbnail kit lives)."""
+import os, sys, time, urllib.request
+
+TEAMS = [
+    ("abilene_christian", 2000, "Abilene Christian"),
+    ("alabama_a_m", 2010, "Alabama A&M"),
+    ("alabama_state", 2011, "Alabama State"),
+    ("alcorn_state", 2016, "Alcorn State"),
+    ("arkansas_pine_bluff", 2029, "Arkansas-Pine Bluff"),
+    ("austin_peay", 2046, "Austin Peay"),
+    ("bethune_cookman", 2065, "Bethune-Cookman"),
+    ("brown", 225, "Brown"),
+    ("bryant", 2803, "Bryant"),
+    ("bucknell", 2083, "Bucknell"),
+    ("butler", 2086, "Butler"),
+    ("cal_poly", 13, "Cal Poly"),
+    ("campbell", 2097, "Campbell"),
+    ("central_arkansas", 2110, "Central Arkansas"),
+    ("central_connecticut_state", 2115, "Central Connecticut State"),
+    ("charleston_southern", 2127, "Charleston Southern"),
+    ("chattanooga", 236, "Chattanooga"),
+    ("chicago_state", 2130, "Chicago State"),
+    ("colgate", 2142, "Colgate"),
+    ("columbia", 171, "Columbia"),
+    ("cornell", 172, "Cornell"),
+    ("dartmouth", 159, "Dartmouth"),
+    ("davidson", 2166, "Davidson"),
+    ("dayton", 2168, "Dayton"),
+    ("delaware_state", 2169, "Delaware State"),
+    ("drake", 2181, "Drake"),
+    ("duquesne", 2184, "Duquesne"),
+    ("east_tennessee_state", 2193, "East Tennessee State"),
+    ("east_texas_a_m", 2837, "East Texas A&M"),
+    ("eastern_illinois", 2197, "Eastern Illinois"),
+    ("eastern_kentucky", 2198, "Eastern Kentucky"),
+    ("eastern_washington", 331, "Eastern Washington"),
+    ("elon", 2210, "Elon"),
+    ("florida_a_m", 50, "Florida A&M"),
+    ("fordham", 2230, "Fordham"),
+    ("furman", 231, "Furman"),
+    ("gardner_webb", 2241, "Gardner-Webb"),
+    ("georgetown", 46, "Georgetown"),
+    ("grambling_state", 2755, "Grambling State"),
+    ("hampton", 2261, "Hampton"),
+    ("harvard", 108, "Harvard"),
+    ("holy_cross", 107, "Holy Cross"),
+    ("houston_christian", 2277, "Houston Christian"),
+    ("howard", 47, "Howard"),
+    ("idaho", 70, "Idaho"),
+    ("idaho_state", 304, "Idaho State"),
+    ("illinois_state", 2287, "Illinois State"),
+    ("incarnate_word", 2916, "Incarnate Word"),
+    ("indiana_state", 282, "Indiana State"),
+    ("jackson_state", 2296, "Jackson State"),
+    ("lafayette", 322, "Lafayette"),
+    ("lamar", 2320, "Lamar"),
+    ("lehigh", 2329, "Lehigh"),
+    ("lindenwood", 2815, "Lindenwood"),
+    ("liu", 2341, "LIU"),
+    ("maine", 311, "Maine"),
+    ("marist", 2368, "Marist"),
+    ("mcneese", 2377, "McNeese"),
+    ("mercer", 2382, "Mercer"),
+    ("mercyhurst", 2385, "Mercyhurst"),
+    ("merrimack", 2771, "Merrimack"),
+    ("mississippi_valley_state", 2400, "Mississippi Valley State"),
+    ("monmouth", 2405, "Monmouth"),
+    ("montana", 149, "Montana"),
+    ("montana_state", 147, "Montana State"),
+    ("morehead_state", 2413, "Morehead State"),
+    ("morgan_state", 2415, "Morgan State"),
+    ("murray_state", 93, "Murray State"),
+    ("new_hampshire", 160, "New Hampshire"),
+    ("new_haven", 2441, "New Haven"),
+    ("nicholls", 2447, "Nicholls"),
+    ("norfolk_state", 2450, "Norfolk State"),
+    ("north_alabama", 2453, "North Alabama"),
+    ("north_carolina_a_t", 2448, "North Carolina A&T"),
+    ("north_carolina_central", 2428, "North Carolina Central"),
+    ("north_dakota", 155, "North Dakota"),
+    ("northern_arizona", 2464, "Northern Arizona"),
+    ("northern_colorado", 2458, "Northern Colorado"),
+    ("northern_iowa", 2460, "Northern Iowa"),
+    ("northwestern_state", 2466, "Northwestern State"),
+    ("pennsylvania", 219, "Pennsylvania"),
+    ("portland_state", 2502, "Portland State"),
+    ("prairie_view_a_m", 2504, "Prairie View A&M"),
+    ("presbyterian", 2506, "Presbyterian"),
+    ("princeton", 163, "Princeton"),
+    ("rhode_island", 227, "Rhode Island"),
+    ("richmond", 257, "Richmond"),
+    ("robert_morris", 2523, "Robert Morris"),
+    ("sacred_heart", 2529, "Sacred Heart"),
+    ("samford", 2535, "Samford"),
+    ("san_diego", 301, "San Diego"),
+    ("se_louisiana", 2545, "SE Louisiana"),
+    ("south_carolina_state", 2569, "South Carolina State"),
+    ("south_dakota", 233, "South Dakota"),
+    ("south_dakota_state", 2571, "South Dakota State"),
+    ("southeast_missouri", 2546, "Southeast Missouri"),
+    ("southern", 2582, "Southern"),
+    ("southern_illinois", 79, "Southern Illinois"),
+    ("southern_utah", 253, "Southern Utah"),
+    ("st_thomas", 2900, "St. Thomas"),
+    ("stephen_f_austin", 2617, "Stephen F. Austin"),
+    ("stetson", 56, "Stetson"),
+    ("stonehill", 284, "Stonehill"),
+    ("stony_brook", 2619, "Stony Brook"),
+    ("tarleton_state", 2627, "Tarleton State"),
+    ("tennessee_state", 2634, "Tennessee State"),
+    ("tennessee_tech", 2635, "Tennessee Tech"),
+    ("texas_southern", 2640, "Texas Southern"),
+    ("the_citadel", 2643, "The Citadel"),
+    ("towson", 119, "Towson"),
+    ("ualbany", 399, "UAlbany"),
+    ("uc_davis", 302, "UC Davis"),
+    ("ut_martin", 2630, "UT Martin"),
+    ("utah_tech", 3101, "Utah Tech"),
+    ("utrgv", 292, "UTRGV"),
+    ("valparaiso", 2674, "Valparaiso"),
+    ("villanova", 222, "Villanova"),
+    ("vmi", 2678, "VMI"),
+    ("wagner", 2681, "Wagner"),
+    ("weber_state", 2692, "Weber State"),
+    ("west_georgia", 2698, "West Georgia"),
+    ("western_carolina", 2717, "Western Carolina"),
+    ("western_illinois", 2710, "Western Illinois"),
+    ("william_mary", 2729, "William & Mary"),
+    ("wofford", 2747, "Wofford"),
+    ("yale", 43, "Yale"),
+    ("youngstown_state", 2754, "Youngstown State"),
+]
+
+def main():
+    os.makedirs("logos", exist_ok=True)
+    ok = fail = 0
+    for fname, espn_id, name in TEAMS:
+        path = os.path.join("logos", fname + ".png")
+        if os.path.exists(path):
+            ok += 1; continue
+        url = "https://a.espncdn.com/i/teamlogos/ncaa/500/%d.png" % espn_id
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=30) as r, open(path, "wb") as f:
+                f.write(r.read())
+            ok += 1; print("ok   ", name)
+        except Exception as e:
+            fail += 1; print("FAIL ", name, "-", e, file=sys.stderr)
+        time.sleep(0.2)
+    print("\n%d logos saved to ./logos, %d failed." % (ok, fail))
+    print("West Florida has no ESPN logo yet - drop one in as logos/west_florida.png if you have it.")
+
+if __name__ == "__main__":
+    main()

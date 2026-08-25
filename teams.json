@@ -1,0 +1,1183 @@
+{
+ "Cal Poly": {
+  "conference": "Big Sky",
+  "color": "#154734",
+  "nickname": "Mustangs",
+  "short": "CAL POLY",
+  "logo": "cal_poly.png",
+  "espn_id": 13
+ },
+ "Eastern Washington": {
+  "conference": "Big Sky",
+  "color": "#A10022",
+  "nickname": "Eagles",
+  "short": "EASTERN WASHINGTON",
+  "logo": "eastern_washington.png",
+  "espn_id": 331
+ },
+ "Idaho": {
+  "conference": "Big Sky",
+  "color": "#000000",
+  "nickname": "Vandals",
+  "short": "IDAHO",
+  "logo": "idaho.png",
+  "espn_id": 70
+ },
+ "Idaho State": {
+  "conference": "Big Sky",
+  "color": "#F47920",
+  "nickname": "Bengals",
+  "short": "IDAHO STATE",
+  "logo": "idaho_state.png",
+  "espn_id": 304
+ },
+ "Montana": {
+  "conference": "Big Sky",
+  "color": "#70002E",
+  "nickname": "Grizzlies",
+  "short": "MONTANA",
+  "logo": "montana.png",
+  "espn_id": 149
+ },
+ "Montana State": {
+  "conference": "Big Sky",
+  "color": "#003875",
+  "nickname": "Bobcats",
+  "short": "MONTANA STATE",
+  "logo": "montana_state.png",
+  "espn_id": 147
+ },
+ "Northern Arizona": {
+  "conference": "Big Sky",
+  "color": "#003466",
+  "nickname": "Lumberjacks",
+  "short": "NORTHERN ARIZONA",
+  "logo": "northern_arizona.png",
+  "espn_id": 2464
+ },
+ "Northern Colorado": {
+  "conference": "Big Sky",
+  "color": "#013C65",
+  "nickname": "Bears",
+  "short": "NORTHERN COLORADO",
+  "logo": "northern_colorado.png",
+  "espn_id": 2458
+ },
+ "Portland State": {
+  "conference": "Big Sky",
+  "color": "#154734",
+  "nickname": "Vikings",
+  "short": "PORTLAND STATE",
+  "logo": "portland_state.png",
+  "espn_id": 2502
+ },
+ "Southern Utah": {
+  "conference": "Big Sky",
+  "color": "#BA0C2F",
+  "nickname": "Thunderbirds",
+  "short": "SOUTHERN UTAH",
+  "logo": "southern_utah.png",
+  "espn_id": 253
+ },
+ "UC Davis": {
+  "conference": "Big Sky",
+  "color": "#022851",
+  "nickname": "Aggies",
+  "short": "UC DAVIS",
+  "logo": "uc_davis.png",
+  "espn_id": 302
+ },
+ "Utah Tech": {
+  "conference": "Big Sky",
+  "color": "#BA1C21",
+  "nickname": "Trailblazers",
+  "short": "UTAH TECH",
+  "logo": "utah_tech.png",
+  "espn_id": 3101
+ },
+ "Weber State": {
+  "conference": "Big Sky",
+  "color": "#4B2E83",
+  "nickname": "Wildcats",
+  "short": "WEBER STATE",
+  "logo": "weber_state.png",
+  "espn_id": 2692
+ },
+ "Illinois State": {
+  "conference": "MVFC",
+  "color": "#CE1126",
+  "nickname": "Redbirds",
+  "short": "ILLINOIS STATE",
+  "logo": "illinois_state.png",
+  "espn_id": 2287
+ },
+ "Indiana State": {
+  "conference": "MVFC",
+  "color": "#0055A5",
+  "nickname": "Sycamores",
+  "short": "INDIANA STATE",
+  "logo": "indiana_state.png",
+  "espn_id": 282
+ },
+ "Murray State": {
+  "conference": "MVFC",
+  "color": "#002144",
+  "nickname": "Racers",
+  "short": "MURRAY STATE",
+  "logo": "murray_state.png",
+  "espn_id": 93
+ },
+ "North Dakota": {
+  "conference": "MVFC",
+  "color": "#009A44",
+  "nickname": "Fighting Hawks",
+  "short": "NORTH DAKOTA",
+  "logo": "north_dakota.png",
+  "espn_id": 155
+ },
+ "Northern Iowa": {
+  "conference": "MVFC",
+  "color": "#4B116F",
+  "nickname": "Panthers",
+  "short": "NORTHERN IOWA",
+  "logo": "northern_iowa.png",
+  "espn_id": 2460
+ },
+ "South Dakota": {
+  "conference": "MVFC",
+  "color": "#AA0000",
+  "nickname": "Coyotes",
+  "short": "SOUTH DAKOTA",
+  "logo": "south_dakota.png",
+  "espn_id": 233
+ },
+ "South Dakota State": {
+  "conference": "MVFC",
+  "color": "#0033A0",
+  "nickname": "Jackrabbits",
+  "short": "SOUTH DAKOTA STATE",
+  "logo": "south_dakota_state.png",
+  "espn_id": 2571
+ },
+ "Southern Illinois": {
+  "conference": "MVFC",
+  "color": "#720000",
+  "nickname": "Salukis",
+  "short": "SOUTHERN ILLINOIS",
+  "logo": "southern_illinois.png",
+  "espn_id": 79
+ },
+ "Youngstown State": {
+  "conference": "MVFC",
+  "color": "#C8102E",
+  "nickname": "Penguins",
+  "short": "YOUNGSTOWN STATE",
+  "logo": "youngstown_state.png",
+  "espn_id": 2754
+ },
+ "UAlbany": {
+  "conference": "CAA",
+  "color": "#461660",
+  "nickname": "Great Danes",
+  "short": "UALBANY",
+  "logo": "ualbany.png",
+  "espn_id": 399
+ },
+ "Bryant": {
+  "conference": "CAA",
+  "color": "#000000",
+  "nickname": "Bulldogs",
+  "short": "BRYANT",
+  "logo": "bryant.png",
+  "espn_id": 2803
+ },
+ "Campbell": {
+  "conference": "CAA",
+  "color": "#F47920",
+  "nickname": "Fighting Camels",
+  "short": "CAMPBELL",
+  "logo": "campbell.png",
+  "espn_id": 2097
+ },
+ "Elon": {
+  "conference": "CAA",
+  "color": "#73000A",
+  "nickname": "Phoenix",
+  "short": "ELON",
+  "logo": "elon.png",
+  "espn_id": 2210
+ },
+ "Hampton": {
+  "conference": "CAA",
+  "color": "#0067AC",
+  "nickname": "Pirates",
+  "short": "HAMPTON",
+  "logo": "hampton.png",
+  "espn_id": 2261
+ },
+ "Maine": {
+  "conference": "CAA",
+  "color": "#003263",
+  "nickname": "Black Bears",
+  "short": "MAINE",
+  "logo": "maine.png",
+  "espn_id": 311
+ },
+ "Monmouth": {
+  "conference": "CAA",
+  "color": "#041E42",
+  "nickname": "Hawks",
+  "short": "MONMOUTH",
+  "logo": "monmouth.png",
+  "espn_id": 2405
+ },
+ "New Hampshire": {
+  "conference": "CAA",
+  "color": "#003B71",
+  "nickname": "Wildcats",
+  "short": "NEW HAMPSHIRE",
+  "logo": "new_hampshire.png",
+  "espn_id": 160
+ },
+ "North Carolina A&T": {
+  "conference": "CAA",
+  "color": "#004684",
+  "nickname": "Aggies",
+  "short": "NC A&T",
+  "logo": "north_carolina_a_t.png",
+  "espn_id": 2448
+ },
+ "Rhode Island": {
+  "conference": "CAA",
+  "color": "#002147",
+  "nickname": "Rams",
+  "short": "RHODE ISLAND",
+  "logo": "rhode_island.png",
+  "espn_id": 227
+ },
+ "Sacred Heart": {
+  "conference": "CAA",
+  "color": "#CE1126",
+  "nickname": "Pioneers",
+  "short": "SACRED HEART",
+  "logo": "sacred_heart.png",
+  "espn_id": 2529
+ },
+ "Stony Brook": {
+  "conference": "CAA",
+  "color": "#990000",
+  "nickname": "Seawolves",
+  "short": "STONY BROOK",
+  "logo": "stony_brook.png",
+  "espn_id": 2619
+ },
+ "Towson": {
+  "conference": "CAA",
+  "color": "#FFB81C",
+  "nickname": "Tigers",
+  "short": "TOWSON",
+  "logo": "towson.png",
+  "espn_id": 119
+ },
+ "Bucknell": {
+  "conference": "Patriot",
+  "color": "#E86026",
+  "nickname": "Bison",
+  "short": "BUCKNELL",
+  "logo": "bucknell.png",
+  "espn_id": 2083
+ },
+ "Colgate": {
+  "conference": "Patriot",
+  "color": "#821019",
+  "nickname": "Raiders",
+  "short": "COLGATE",
+  "logo": "colgate.png",
+  "espn_id": 2142
+ },
+ "Fordham": {
+  "conference": "Patriot",
+  "color": "#900028",
+  "nickname": "Rams",
+  "short": "FORDHAM",
+  "logo": "fordham.png",
+  "espn_id": 2230
+ },
+ "Georgetown": {
+  "conference": "Patriot",
+  "color": "#031D40",
+  "nickname": "Hoyas",
+  "short": "GEORGETOWN",
+  "logo": "georgetown.png",
+  "espn_id": 46
+ },
+ "Holy Cross": {
+  "conference": "Patriot",
+  "color": "#602D89",
+  "nickname": "Crusaders",
+  "short": "HOLY CROSS",
+  "logo": "holy_cross.png",
+  "espn_id": 107
+ },
+ "Lafayette": {
+  "conference": "Patriot",
+  "color": "#910028",
+  "nickname": "Leopards",
+  "short": "LAFAYETTE",
+  "logo": "lafayette.png",
+  "espn_id": 322
+ },
+ "Lehigh": {
+  "conference": "Patriot",
+  "color": "#653819",
+  "nickname": "Mountain Hawks",
+  "short": "LEHIGH",
+  "logo": "lehigh.png",
+  "espn_id": 2329
+ },
+ "Richmond": {
+  "conference": "Patriot",
+  "color": "#990000",
+  "nickname": "Spiders",
+  "short": "RICHMOND",
+  "logo": "richmond.png",
+  "espn_id": 257
+ },
+ "Villanova": {
+  "conference": "Patriot",
+  "color": "#00205B",
+  "nickname": "Wildcats",
+  "short": "VILLANOVA",
+  "logo": "villanova.png",
+  "espn_id": 222
+ },
+ "William & Mary": {
+  "conference": "Patriot",
+  "color": "#115740",
+  "nickname": "Tribe",
+  "short": "WILLIAM & MARY",
+  "logo": "william_mary.png",
+  "espn_id": 2729
+ },
+ "Chattanooga": {
+  "conference": "SoCon",
+  "color": "#00386B",
+  "nickname": "Mocs",
+  "short": "CHATTANOOGA",
+  "logo": "chattanooga.png",
+  "espn_id": 236
+ },
+ "East Tennessee State": {
+  "conference": "SoCon",
+  "color": "#041E42",
+  "nickname": "Buccaneers",
+  "short": "ETSU",
+  "logo": "east_tennessee_state.png",
+  "espn_id": 2193
+ },
+ "Furman": {
+  "conference": "SoCon",
+  "color": "#582C83",
+  "nickname": "Paladins",
+  "short": "FURMAN",
+  "logo": "furman.png",
+  "espn_id": 231
+ },
+ "Mercer": {
+  "conference": "SoCon",
+  "color": "#F76800",
+  "nickname": "Bears",
+  "short": "MERCER",
+  "logo": "mercer.png",
+  "espn_id": 2382
+ },
+ "Samford": {
+  "conference": "SoCon",
+  "color": "#002649",
+  "nickname": "Bulldogs",
+  "short": "SAMFORD",
+  "logo": "samford.png",
+  "espn_id": 2535
+ },
+ "The Citadel": {
+  "conference": "SoCon",
+  "color": "#002B5C",
+  "nickname": "Bulldogs",
+  "short": "THE CITADEL",
+  "logo": "the_citadel.png",
+  "espn_id": 2643
+ },
+ "VMI": {
+  "conference": "SoCon",
+  "color": "#AE122A",
+  "nickname": "Keydets",
+  "short": "VMI",
+  "logo": "vmi.png",
+  "espn_id": 2678
+ },
+ "Western Carolina": {
+  "conference": "SoCon",
+  "color": "#592C88",
+  "nickname": "Catamounts",
+  "short": "WESTERN CAROLINA",
+  "logo": "western_carolina.png",
+  "espn_id": 2717
+ },
+ "Wofford": {
+  "conference": "SoCon",
+  "color": "#000000",
+  "nickname": "Terriers",
+  "short": "WOFFORD",
+  "logo": "wofford.png",
+  "espn_id": 2747
+ },
+ "Tennessee Tech": {
+  "conference": "SoCon",
+  "color": "#4F2883",
+  "nickname": "Golden Eagles",
+  "short": "TENNESSEE TECH",
+  "logo": "tennessee_tech.png",
+  "espn_id": 2635
+ },
+ "Charleston Southern": {
+  "conference": "Big South-OVC",
+  "color": "#002B5C",
+  "nickname": "Buccaneers",
+  "short": "CHARLESTON SOUTHERN",
+  "logo": "charleston_southern.png",
+  "espn_id": 2127
+ },
+ "Eastern Illinois": {
+  "conference": "Big South-OVC",
+  "color": "#004B83",
+  "nickname": "Panthers",
+  "short": "EASTERN ILLINOIS",
+  "logo": "eastern_illinois.png",
+  "espn_id": 2197
+ },
+ "Gardner-Webb": {
+  "conference": "Big South-OVC",
+  "color": "#BA0001",
+  "nickname": "Runnin' Bulldogs",
+  "short": "GARDNER-WEBB",
+  "logo": "gardner_webb.png",
+  "espn_id": 2241
+ },
+ "Lindenwood": {
+  "conference": "Big South-OVC",
+  "color": "#000000",
+  "nickname": "Lions",
+  "short": "LINDENWOOD",
+  "logo": "lindenwood.png",
+  "espn_id": 2815
+ },
+ "Southeast Missouri": {
+  "conference": "Big South-OVC",
+  "color": "#C8102E",
+  "nickname": "Redhawks",
+  "short": "SEMO",
+  "logo": "southeast_missouri.png",
+  "espn_id": 2546
+ },
+ "Tennessee State": {
+  "conference": "Big South-OVC",
+  "color": "#00539F",
+  "nickname": "Tigers",
+  "short": "TENNESSEE STATE",
+  "logo": "tennessee_state.png",
+  "espn_id": 2634
+ },
+ "UT Martin": {
+  "conference": "Big South-OVC",
+  "color": "#002855",
+  "nickname": "Skyhawks",
+  "short": "UT MARTIN",
+  "logo": "ut_martin.png",
+  "espn_id": 2630
+ },
+ "Western Illinois": {
+  "conference": "Big South-OVC",
+  "color": "#663399",
+  "nickname": "Leathernecks",
+  "short": "WESTERN ILLINOIS",
+  "logo": "western_illinois.png",
+  "espn_id": 2710
+ },
+ "Houston Christian": {
+  "conference": "Southland",
+  "color": "#00205B",
+  "nickname": "Huskies",
+  "short": "HOUSTON CHRISTIAN",
+  "logo": "houston_christian.png",
+  "espn_id": 2277
+ },
+ "Incarnate Word": {
+  "conference": "Southland",
+  "color": "#CE1126",
+  "nickname": "Cardinals",
+  "short": "INCARNATE WORD",
+  "logo": "incarnate_word.png",
+  "espn_id": 2916
+ },
+ "Lamar": {
+  "conference": "Southland",
+  "color": "#E1251B",
+  "nickname": "Cardinals",
+  "short": "LAMAR",
+  "logo": "lamar.png",
+  "espn_id": 2320
+ },
+ "McNeese": {
+  "conference": "Southland",
+  "color": "#00529B",
+  "nickname": "Cowboys",
+  "short": "MCNEESE",
+  "logo": "mcneese.png",
+  "espn_id": 2377
+ },
+ "Nicholls": {
+  "conference": "Southland",
+  "color": "#C8102E",
+  "nickname": "Colonels",
+  "short": "NICHOLLS",
+  "logo": "nicholls.png",
+  "espn_id": 2447
+ },
+ "Northwestern State": {
+  "conference": "Southland",
+  "color": "#4F2984",
+  "nickname": "Demons",
+  "short": "NORTHWESTERN STATE",
+  "logo": "northwestern_state.png",
+  "espn_id": 2466
+ },
+ "SE Louisiana": {
+  "conference": "Southland",
+  "color": "#006341",
+  "nickname": "Lions",
+  "short": "SE LOUISIANA",
+  "logo": "se_louisiana.png",
+  "espn_id": 2545
+ },
+ "Stephen F. Austin": {
+  "conference": "Southland",
+  "color": "#582C83",
+  "nickname": "Lumberjacks",
+  "short": "SFA",
+  "logo": "stephen_f_austin.png",
+  "espn_id": 2617
+ },
+ "UTRGV": {
+  "conference": "Southland",
+  "color": "#F05023",
+  "nickname": "Vaqueros",
+  "short": "UTRGV",
+  "logo": "utrgv.png",
+  "espn_id": 292
+ },
+ "East Texas A&M": {
+  "conference": "Southland",
+  "color": "#1B4693",
+  "nickname": "Lions",
+  "short": "EAST TEXAS A&M",
+  "logo": "east_texas_a_m.png",
+  "espn_id": 2837
+ },
+ "Central Connecticut State": {
+  "conference": "NEC",
+  "color": "#1E4D9C",
+  "nickname": "Blue Devils",
+  "short": "CCSU",
+  "logo": "central_connecticut_state.png",
+  "espn_id": 2115
+ },
+ "Duquesne": {
+  "conference": "NEC",
+  "color": "#BA0C2F",
+  "nickname": "Dukes",
+  "short": "DUQUESNE",
+  "logo": "duquesne.png",
+  "espn_id": 2184
+ },
+ "LIU": {
+  "conference": "NEC",
+  "color": "#0B2C64",
+  "nickname": "Sharks",
+  "short": "LIU",
+  "logo": "liu.png",
+  "espn_id": 2341
+ },
+ "Mercyhurst": {
+  "conference": "NEC",
+  "color": "#00594C",
+  "nickname": "Lakers",
+  "short": "MERCYHURST",
+  "logo": "mercyhurst.png",
+  "espn_id": 2385
+ },
+ "Robert Morris": {
+  "conference": "NEC",
+  "color": "#14234B",
+  "nickname": "Colonials",
+  "short": "ROBERT MORRIS",
+  "logo": "robert_morris.png",
+  "espn_id": 2523
+ },
+ "Stonehill": {
+  "conference": "NEC",
+  "color": "#582C83",
+  "nickname": "Skyhawks",
+  "short": "STONEHILL",
+  "logo": "stonehill.png",
+  "espn_id": 284
+ },
+ "Wagner": {
+  "conference": "NEC",
+  "color": "#006747",
+  "nickname": "Seahawks",
+  "short": "WAGNER",
+  "logo": "wagner.png",
+  "espn_id": 2681
+ },
+ "New Haven": {
+  "conference": "NEC",
+  "color": "#0060A9",
+  "nickname": "Chargers",
+  "short": "NEW HAVEN",
+  "logo": "new_haven.png",
+  "espn_id": 2441
+ },
+ "Merrimack": {
+  "conference": "Independent",
+  "color": "#002F6C",
+  "nickname": "Warriors",
+  "short": "MERRIMACK",
+  "logo": "merrimack.png",
+  "espn_id": 2771
+ },
+ "Chicago State": {
+  "conference": "Independent",
+  "color": "#006747",
+  "nickname": "Cougars",
+  "short": "CHICAGO STATE",
+  "logo": "chicago_state.png",
+  "espn_id": 2130
+ },
+ "Delaware State": {
+  "conference": "MEAC",
+  "color": "#CE1126",
+  "nickname": "Hornets",
+  "short": "DELAWARE STATE",
+  "logo": "delaware_state.png",
+  "espn_id": 2169
+ },
+ "Howard": {
+  "conference": "MEAC",
+  "color": "#003A63",
+  "nickname": "Bison",
+  "short": "HOWARD",
+  "logo": "howard.png",
+  "espn_id": 47
+ },
+ "Morgan State": {
+  "conference": "MEAC",
+  "color": "#0033A0",
+  "nickname": "Bears",
+  "short": "MORGAN STATE",
+  "logo": "morgan_state.png",
+  "espn_id": 2415
+ },
+ "Norfolk State": {
+  "conference": "MEAC",
+  "color": "#007A53",
+  "nickname": "Spartans",
+  "short": "NORFOLK STATE",
+  "logo": "norfolk_state.png",
+  "espn_id": 2450
+ },
+ "North Carolina Central": {
+  "conference": "MEAC",
+  "color": "#862633",
+  "nickname": "Eagles",
+  "short": "NC CENTRAL",
+  "logo": "north_carolina_central.png",
+  "espn_id": 2428
+ },
+ "South Carolina State": {
+  "conference": "MEAC",
+  "color": "#8C2332",
+  "nickname": "Bulldogs",
+  "short": "SC STATE",
+  "logo": "south_carolina_state.png",
+  "espn_id": 2569
+ },
+ "Alabama A&M": {
+  "conference": "SWAC",
+  "color": "#660000",
+  "nickname": "Bulldogs",
+  "short": "ALABAMA A&M",
+  "logo": "alabama_a_m.png",
+  "espn_id": 2010
+ },
+ "Alabama State": {
+  "conference": "SWAC",
+  "color": "#000000",
+  "nickname": "Hornets",
+  "short": "ALABAMA STATE",
+  "logo": "alabama_state.png",
+  "espn_id": 2011
+ },
+ "Alcorn State": {
+  "conference": "SWAC",
+  "color": "#4B0082",
+  "nickname": "Braves",
+  "short": "ALCORN STATE",
+  "logo": "alcorn_state.png",
+  "espn_id": 2016
+ },
+ "Arkansas-Pine Bluff": {
+  "conference": "SWAC",
+  "color": "#000000",
+  "nickname": "Golden Lions",
+  "short": "UAPB",
+  "logo": "arkansas_pine_bluff.png",
+  "espn_id": 2029
+ },
+ "Bethune-Cookman": {
+  "conference": "SWAC",
+  "color": "#7B1E3B",
+  "nickname": "Wildcats",
+  "short": "BETHUNE-COOKMAN",
+  "logo": "bethune_cookman.png",
+  "espn_id": 2065
+ },
+ "Florida A&M": {
+  "conference": "SWAC",
+  "color": "#F47920",
+  "nickname": "Rattlers",
+  "short": "FLORIDA A&M",
+  "logo": "florida_a_m.png",
+  "espn_id": 50
+ },
+ "Grambling State": {
+  "conference": "SWAC",
+  "color": "#000000",
+  "nickname": "Tigers",
+  "short": "GRAMBLING STATE",
+  "logo": "grambling_state.png",
+  "espn_id": 2755
+ },
+ "Jackson State": {
+  "conference": "SWAC",
+  "color": "#002D62",
+  "nickname": "Tigers",
+  "short": "JACKSON STATE",
+  "logo": "jackson_state.png",
+  "espn_id": 2296
+ },
+ "Mississippi Valley State": {
+  "conference": "SWAC",
+  "color": "#006747",
+  "nickname": "Delta Devils",
+  "short": "MVSU",
+  "logo": "mississippi_valley_state.png",
+  "espn_id": 2400
+ },
+ "Prairie View A&M": {
+  "conference": "SWAC",
+  "color": "#4F2984",
+  "nickname": "Panthers",
+  "short": "PRAIRIE VIEW A&M",
+  "logo": "prairie_view_a_m.png",
+  "espn_id": 2504
+ },
+ "Southern": {
+  "conference": "SWAC",
+  "color": "#0033A0",
+  "nickname": "Jaguars",
+  "short": "SOUTHERN",
+  "logo": "southern.png",
+  "espn_id": 2582
+ },
+ "Texas Southern": {
+  "conference": "SWAC",
+  "color": "#6B0F1A",
+  "nickname": "Tigers",
+  "short": "TEXAS SOUTHERN",
+  "logo": "texas_southern.png",
+  "espn_id": 2640
+ },
+ "Abilene Christian": {
+  "conference": "UAC",
+  "color": "#4E2A84",
+  "nickname": "Wildcats",
+  "short": "ABILENE CHRISTIAN",
+  "logo": "abilene_christian.png",
+  "espn_id": 2000
+ },
+ "Austin Peay": {
+  "conference": "UAC",
+  "color": "#8E0B0B",
+  "nickname": "Governors",
+  "short": "AUSTIN PEAY",
+  "logo": "austin_peay.png",
+  "espn_id": 2046
+ },
+ "Central Arkansas": {
+  "conference": "UAC",
+  "color": "#4F2D7F",
+  "nickname": "Bears",
+  "short": "CENTRAL ARKANSAS",
+  "logo": "central_arkansas.png",
+  "espn_id": 2110
+ },
+ "Eastern Kentucky": {
+  "conference": "UAC",
+  "color": "#861F41",
+  "nickname": "Colonels",
+  "short": "EASTERN KENTUCKY",
+  "logo": "eastern_kentucky.png",
+  "espn_id": 2198
+ },
+ "North Alabama": {
+  "conference": "UAC",
+  "color": "#46166B",
+  "nickname": "Lions",
+  "short": "NORTH ALABAMA",
+  "logo": "north_alabama.png",
+  "espn_id": 2453
+ },
+ "Tarleton State": {
+  "conference": "UAC",
+  "color": "#4F2984",
+  "nickname": "Texans",
+  "short": "TARLETON STATE",
+  "logo": "tarleton_state.png",
+  "espn_id": 2627
+ },
+ "West Georgia": {
+  "conference": "UAC",
+  "color": "#BA0C2F",
+  "nickname": "Wolves",
+  "short": "WEST GEORGIA",
+  "logo": "west_georgia.png",
+  "espn_id": 2698
+ },
+ "West Florida": {
+  "conference": "UAC",
+  "color": "#0A3B6B",
+  "nickname": "Argonauts",
+  "short": "WEST FLORIDA",
+  "logo": "west_florida.png"
+ },
+ "Butler": {
+  "conference": "Pioneer",
+  "color": "#13294B",
+  "nickname": "Bulldogs",
+  "short": "BUTLER",
+  "logo": "butler.png",
+  "espn_id": 2086
+ },
+ "Davidson": {
+  "conference": "Pioneer",
+  "color": "#AC1A2F",
+  "nickname": "Wildcats",
+  "short": "DAVIDSON",
+  "logo": "davidson.png",
+  "espn_id": 2166
+ },
+ "Dayton": {
+  "conference": "Pioneer",
+  "color": "#CE1141",
+  "nickname": "Flyers",
+  "short": "DAYTON",
+  "logo": "dayton.png",
+  "espn_id": 2168
+ },
+ "Drake": {
+  "conference": "Pioneer",
+  "color": "#004477",
+  "nickname": "Bulldogs",
+  "short": "DRAKE",
+  "logo": "drake.png",
+  "espn_id": 2181
+ },
+ "Marist": {
+  "conference": "Pioneer",
+  "color": "#C8102E",
+  "nickname": "Red Foxes",
+  "short": "MARIST",
+  "logo": "marist.png",
+  "espn_id": 2368
+ },
+ "Morehead State": {
+  "conference": "Pioneer",
+  "color": "#005DAA",
+  "nickname": "Eagles",
+  "short": "MOREHEAD STATE",
+  "logo": "morehead_state.png",
+  "espn_id": 2413
+ },
+ "Presbyterian": {
+  "conference": "Pioneer",
+  "color": "#003057",
+  "nickname": "Blue Hose",
+  "short": "PRESBYTERIAN",
+  "logo": "presbyterian.png",
+  "espn_id": 2506
+ },
+ "St. Thomas": {
+  "conference": "Pioneer",
+  "color": "#512D6D",
+  "nickname": "Tommies",
+  "short": "ST. THOMAS",
+  "logo": "st_thomas.png",
+  "espn_id": 2900
+ },
+ "San Diego": {
+  "conference": "Pioneer",
+  "color": "#003B5C",
+  "nickname": "Toreros",
+  "short": "SAN DIEGO",
+  "logo": "san_diego.png",
+  "espn_id": 301
+ },
+ "Stetson": {
+  "conference": "Pioneer",
+  "color": "#00563F",
+  "nickname": "Hatters",
+  "short": "STETSON",
+  "logo": "stetson.png",
+  "espn_id": 56
+ },
+ "Valparaiso": {
+  "conference": "Pioneer",
+  "color": "#4F2C1D",
+  "nickname": "Beacons",
+  "short": "VALPARAISO",
+  "logo": "valparaiso.png",
+  "espn_id": 2674
+ },
+ "Brown": {
+  "conference": "Ivy",
+  "color": "#4E3629",
+  "nickname": "Bears",
+  "short": "BROWN",
+  "logo": "brown.png",
+  "espn_id": 225
+ },
+ "Columbia": {
+  "conference": "Ivy",
+  "color": "#75AADB",
+  "nickname": "Lions",
+  "short": "COLUMBIA",
+  "logo": "columbia.png",
+  "espn_id": 171
+ },
+ "Cornell": {
+  "conference": "Ivy",
+  "color": "#B31B1B",
+  "nickname": "Big Red",
+  "short": "CORNELL",
+  "logo": "cornell.png",
+  "espn_id": 172
+ },
+ "Dartmouth": {
+  "conference": "Ivy",
+  "color": "#00693E",
+  "nickname": "Big Green",
+  "short": "DARTMOUTH",
+  "logo": "dartmouth.png",
+  "espn_id": 159
+ },
+ "Harvard": {
+  "conference": "Ivy",
+  "color": "#A51C30",
+  "nickname": "Crimson",
+  "short": "HARVARD",
+  "logo": "harvard.png",
+  "espn_id": 108
+ },
+ "Pennsylvania": {
+  "conference": "Ivy",
+  "color": "#011F5B",
+  "nickname": "Quakers",
+  "short": "PENN",
+  "logo": "pennsylvania.png",
+  "espn_id": 219
+ },
+ "Princeton": {
+  "conference": "Ivy",
+  "color": "#E77500",
+  "nickname": "Tigers",
+  "short": "PRINCETON",
+  "logo": "princeton.png",
+  "espn_id": 163
+ },
+ "Yale": {
+  "conference": "Ivy",
+  "color": "#00356B",
+  "nickname": "Bulldogs",
+  "short": "YALE",
+  "logo": "yale.png",
+  "espn_id": 43
+ },
+ "Savannah State": {
+  "conference": "D2",
+  "color": "#002496",
+  "nickname": "Tigers",
+  "short": "SAVANNAH STATE",
+  "logo": "savannah_state.png"
+ },
+ "Albany State": {
+  "conference": "D2",
+  "color": "#E6A004",
+  "nickname": "Golden Rams",
+  "short": "ALBANY STATE",
+  "logo": "albany_state.png"
+ },
+ "Albany": {
+  "conference": "CAA",
+  "color": "#461660",
+  "nickname": "Great Danes",
+  "short": "UALBANY",
+  "alias_of": "UAlbany",
+  "logo": "ualbany.png",
+  "espn_id": 399
+ },
+ "ETSU": {
+  "conference": "SoCon",
+  "color": "#041E42",
+  "nickname": "Buccaneers",
+  "short": "ETSU",
+  "alias_of": "East Tennessee State",
+  "logo": "east_tennessee_state.png",
+  "espn_id": 2193
+ },
+ "SEMO": {
+  "conference": "Big South-OVC",
+  "color": "#C8102E",
+  "nickname": "Redhawks",
+  "short": "SEMO",
+  "alias_of": "Southeast Missouri",
+  "logo": "southeast_missouri.png",
+  "espn_id": 2546
+ },
+ "SFA": {
+  "conference": "Southland",
+  "color": "#582C83",
+  "nickname": "Lumberjacks",
+  "short": "SFA",
+  "alias_of": "Stephen F. Austin",
+  "logo": "stephen_f_austin.png",
+  "espn_id": 2617
+ },
+ "Southeastern Louisiana": {
+  "conference": "Southland",
+  "color": "#006341",
+  "nickname": "Lions",
+  "short": "SE LOUISIANA",
+  "alias_of": "SE Louisiana",
+  "logo": "se_louisiana.png",
+  "espn_id": 2545
+ },
+ "HCU": {
+  "conference": "Southland",
+  "color": "#00205B",
+  "nickname": "Huskies",
+  "short": "HOUSTON CHRISTIAN",
+  "alias_of": "Houston Christian",
+  "logo": "houston_christian.png",
+  "espn_id": 2277
+ },
+ "NC A&T": {
+  "conference": "CAA",
+  "color": "#004684",
+  "nickname": "Aggies",
+  "short": "NC A&T",
+  "alias_of": "North Carolina A&T",
+  "logo": "north_carolina_a_t.png",
+  "espn_id": 2448
+ },
+ "CCSU": {
+  "conference": "NEC",
+  "color": "#1E4D9C",
+  "nickname": "Blue Devils",
+  "short": "CCSU",
+  "alias_of": "Central Connecticut State",
+  "logo": "central_connecticut_state.png",
+  "espn_id": 2115
+ },
+ "Long Island": {
+  "conference": "NEC",
+  "color": "#0B2C64",
+  "nickname": "Sharks",
+  "short": "LIU",
+  "alias_of": "LIU",
+  "logo": "liu.png",
+  "espn_id": 2341
+ },
+ "Long Island University": {
+  "conference": "NEC",
+  "color": "#0B2C64",
+  "nickname": "Sharks",
+  "short": "LIU",
+  "alias_of": "LIU",
+  "logo": "liu.png",
+  "espn_id": 2341
+ },
+ "Penn": {
+  "conference": "Ivy",
+  "color": "#011F5B",
+  "nickname": "Quakers",
+  "short": "PENN",
+  "alias_of": "Pennsylvania",
+  "logo": "pennsylvania.png",
+  "espn_id": 219
+ },
+ "Grambling": {
+  "conference": "SWAC",
+  "color": "#000000",
+  "nickname": "Tigers",
+  "short": "GRAMBLING STATE",
+  "alias_of": "Grambling State",
+  "logo": "grambling_state.png",
+  "espn_id": 2755
+ },
+ "UT Rio Grande Valley": {
+  "conference": "Southland",
+  "color": "#F05023",
+  "nickname": "Vaqueros",
+  "short": "UTRGV",
+  "alias_of": "UTRGV",
+  "logo": "utrgv.png",
+  "espn_id": 292
+ },
+ "SC State": {
+  "conference": "MEAC",
+  "color": "#8C2332",
+  "nickname": "Bulldogs",
+  "short": "SC STATE",
+  "alias_of": "South Carolina State",
+  "logo": "south_carolina_state.png",
+  "espn_id": 2569
+ },
+ "NC Central": {
+  "conference": "MEAC",
+  "color": "#862633",
+  "nickname": "Eagles",
+  "short": "NC CENTRAL",
+  "alias_of": "North Carolina Central",
+  "logo": "north_carolina_central.png",
+  "espn_id": 2428
+ },
+ "MVSU": {
+  "conference": "SWAC",
+  "color": "#006747",
+  "nickname": "Delta Devils",
+  "short": "MVSU",
+  "alias_of": "Mississippi Valley State",
+  "logo": "mississippi_valley_state.png",
+  "espn_id": 2400
+ }
+}

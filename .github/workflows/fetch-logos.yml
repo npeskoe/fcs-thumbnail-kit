@@ -1,0 +1,22 @@
+name: Fetch logos
+# Run this once from the Actions tab ("Run workflow"). It downloads every FCS logo into logos/ and commits them,
+# so you never need Python on your own computer. Re-run any time to pick up new teams.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 download_logos.py
+      - run: |
+          git config user.name "logo-bot"
+          git config user.email "logo-bot@users.noreply.github.com"
+          git add logos
+          git commit -m "Add/refresh FCS logos" || echo "nothing to commit"
+          git push

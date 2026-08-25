@@ -1,35 +1,14 @@
-# FCS Fans Uploader — Privacy Policy
+# FCS Fans Uploader — Terms of Service
 
 _Last updated: August 25, 2026_
 
-FCS Fans Uploader ("the Tool") is a private, single-user program written and operated by the owner of the FCS Fans YouTube channel ("I", "me"). It exists for one purpose: to publish my own finished videos from my own Google Drive folder to my own YouTube channel. It has no other users, no website login, and no public interface.
+FCS Fans Uploader ("the Tool") is a private, single-user program that uploads the operator's own videos from the operator's Google Drive to the operator's YouTube channel. It is not offered to the public, is not sold, and has no accounts or users other than its operator.
 
-## What the Tool accesses
+1. **Scope.** The Tool is provided for the operator's personal use only. Anyone who runs a copy of the source code does so on their own Google Account and YouTube channel, under their own responsibility.
+2. **YouTube API Services.** The Tool uses YouTube API Services. Its operator agrees to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms) and acknowledges the [Google Privacy Policy](https://policies.google.com/privacy). Use of the Tool is also subject to the [YouTube API Services Terms of Service](https://developers.google.com/youtube/terms/api-services-terms-of-service) and the [Developer Policies](https://developers.google.com/youtube/terms/developer-policies).
+3. **Content.** Only content the operator has the right to publish may be uploaded with the Tool. The operator is solely responsible for the videos, titles, descriptions, tags, and thumbnails it publishes.
+4. **Privacy.** Data handling is described in the [Privacy Policy](./PRIVACY.md). Access can be revoked at any time at <https://myaccount.google.com/permissions>.
+5. **No warranty.** The Tool is provided "as is", without warranty of any kind. The operator uses it at their own risk.
+6. **Changes.** These terms may be updated by editing this file; the date above reflects the latest revision.
 
-The Tool uses Google APIs, including YouTube API Services, after I sign in with my own Google Account and grant it permission. It accesses:
-
-- **Google Drive:** the contents of one folder that I designate. It reads video files from that folder and moves each one into an "Uploaded" subfolder after a successful upload.
-- **YouTube:** my own channel, to upload videos (`videos.insert`), set their thumbnails (`thumbnails.set`), and add them to a playlist (`playlistItems.insert`).
-
-It does not access any other person's Google Account, Drive, or YouTube data, and it does not collect information about viewers of the channel.
-
-## How the data is used and stored
-
-- Video files are downloaded to a server I control only for the time it takes to upload them to YouTube, then deleted from that server.
-- The Google sign-in token is stored on that server so the Tool can run unattended. It is not shared with anyone.
-- The Tool keeps a small log of the videos it has uploaded (file name, video title, YouTube link, date) so it does not upload the same file twice.
-- No data is sold, shared with third parties, used for advertising, or used to build profiles. No analytics or tracking of any kind is performed.
-
-## YouTube API Services
-
-The Tool uses YouTube API Services. By using it I agree to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms). Google's handling of data is described in the [Google Privacy Policy](https://policies.google.com/privacy).
-
-The Tool's use of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
-
-## Revoking access
-
-Access granted to the Tool can be revoked at any time from the Google Account permissions page at <https://myaccount.google.com/permissions>. Revoking access stops the Tool immediately; deleting the token file on the server has the same effect. Stored upload logs can be deleted at any time.
-
-## Contact
-
-Questions about this policy: npeskoe@gmail.com
+Contact: nick@peskoetechnologies.com
